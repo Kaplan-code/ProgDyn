@@ -19,7 +19,8 @@ int main()
 	deux.weight = 5;deux.value=5;
 	trois.weight = 5;trois.value=5;
 	Knap liste[3] = {un,deux,trois};
-	Knap *sacs = knackSack(liste,3,10);
+	int sacs = knapsack(liste,3,10);
+	printf("/ %d /", sacs);
 	
 	return (0);
 }

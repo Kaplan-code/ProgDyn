@@ -22,7 +22,7 @@ void sortKnack(Knap *tab, int size_t){
     }
 }
 
-Knap *knackSack(Knap *tab, int size_t, int weightMax){
+int knapsack(Knap *tab, int size_t, int weightMax){
     int w_conso = 0;
     //printObjectTab(tab, size_t);
     Knap *final = malloc(size_t * sizeof(Knap));
@@ -32,11 +32,11 @@ Knap *knackSack(Knap *tab, int size_t, int weightMax){
     {
         if (tab[i].weight + w_conso < weightMax)
         {
-            final[i] = tab[i];
+            //final[i] = tab[i];
             w_conso+=tab[i].weight;
         }
     }
 
-    return final;
+    return w_conso;
    
 }
