@@ -85,6 +85,7 @@ $(MAIN): $(OBJECTS)
 clean:
 	$(RM) $(OUTPUTMAIN)
 	$(RM) $(call FIXPATH,$(OBJECTS))
+	$(RM) -r doxygenDoc
 	@echo Cleanup complete!
 
 run: all

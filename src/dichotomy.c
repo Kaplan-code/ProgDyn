@@ -30,4 +30,5 @@ int find_by_dichotomy(int array[], int size_t, int value ){
             max = middle-1;
         }
     }
+    return -1;
 }
