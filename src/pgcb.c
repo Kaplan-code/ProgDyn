@@ -142,6 +142,13 @@ Pgcb pgcb(int **matrice, int size)
     return pgcb;
     
 }
+/**
+ * @brief return the max
+ * 
+ * @param matrice matrice to take
+ * @param size size of matrice
+ * @return Pgcb 
+ */
 Pgcb max(int **matrice, int size)
 {
     int max = 0;
