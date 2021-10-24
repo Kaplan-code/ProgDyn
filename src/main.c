@@ -37,8 +37,10 @@ int main()
 	int tailleMatrice = 10;
 	int nbCarreNoir = 10;
 	int **matrice = setMatrice(tailleMatrice,nbCarreNoir);
-	pgcb(matrice,tailleMatrice);
+	
 	showMatrice(matrice,tailleMatrice);
+	c =pgcb(matrice,tailleMatrice);
+	showMatriceNew(matrice, tailleMatrice, c);
 
 	return (0);
 }
