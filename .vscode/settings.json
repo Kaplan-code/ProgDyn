@@ -1,1 +1,7 @@
-{}
+{
+    "files.associations": {
+        "dichotomy.h": "c",
+        "knapsack.h": "c",
+        "pgcb.h": "c"
+    }
+}

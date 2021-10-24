@@ -11,7 +11,17 @@
 #ifndef PGCB_H
 #define PGCB_H
 
+typedef struct{
+    int x;
+    int y;
+    int size;
+} Pgcb;
 
+Pgcb pgcb(int **matrice,int size);
+//void freeMatrice(int **matrice);
 int **setMatrice(int size, int black);
 void showMatrice(int **matrice, int size);
+int max(int a, int b);
+int min(int a, int b, int c);
+
 #endif

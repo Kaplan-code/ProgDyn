@@ -1,3 +1,13 @@
+/**
+ * @file dichotomy.h
+ * @author Kubilay KAPLAN
+ * @brief 
+ * @version 0.1
+ * @date 2021-10-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef DICHOTOMY_H
 #define DICHOTOMY_H
 

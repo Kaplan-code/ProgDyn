@@ -16,13 +16,13 @@
 
 int main()
 {
-	/**
+	
 	// Test Dichotomy
 	int tab[10] = {3,7,8,8,10,12,34,40,55,99};
 	assert(find_by_dichotomy(tab,10, 7) == 1);
 
 
-	// Test glouton
+	// Test glouton/Knapsack
 	Object un,deux,trois;
 	un.weight = 6;un.value=12;
 	deux.weight = 5;deux.value=5;
@@ -30,12 +30,14 @@ int main()
 	Object liste[3] = {trois,deux,un};
 	int sacs = knapsack(liste,3,10);
 	assert(sacs == 6); //prend seulement la plus grande valeur (6) au lieu d'optimiser avec 2*5 pour arriver a 10. C'est mauvais
-	*/
-
 	
+
+	// Test pgcb
+	Pgcb c;
 	int tailleMatrice = 10;
 	int nbCarreNoir = 10;
 	int **matrice = setMatrice(tailleMatrice,nbCarreNoir);
+	pgcb(matrice,tailleMatrice);
 	showMatrice(matrice,tailleMatrice);
 
 	return (0);

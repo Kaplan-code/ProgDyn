@@ -1,5 +1,5 @@
 /**
- * @file Objectsack.c
+ * @file knapsack.c
  * @author Kubilay KAPLAN
  * @brief 
  * @version 0.1
