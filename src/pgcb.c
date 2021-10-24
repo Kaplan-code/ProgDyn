@@ -64,7 +64,6 @@ void showMatrice(int **matrice, int size){
  * 
  * @param a value to compare 
  * @param b value to compare 
- * @param c value to compare 
  * @return int 
  */
 int min(int a, int b){
